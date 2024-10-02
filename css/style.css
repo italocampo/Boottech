@@ -1,168 +1,190 @@
 /* Reset de margens e preenchimentos */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
 }
 
 /* Estilo do cabeçalho */
 header {
-  background-color: #f8f9fa;
+    background-color:#fff;
+}
+
+.zindex {
+    background-color: #000000;
 }
 
 .logo {
-  font-size: 2rem;
-  color: #28a745; /* Cor verde */
+    font-size: 2rem;
+    color: #00ff00;
+    /* Cor verde */
 }
 
 .nav {
-  list-style: none;
+    list-style: none;
 }
 
 .nav-item {
-  margin-left: 15px;
+    margin-left: 15px;
 }
 
 .nav-link {
-  text-decoration: none;
-  color: #212529; /* Cor escura */
+    text-decoration: none;
+    color: #ffffff;
+    /* Cor escura */
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: #000000; /* Verde quando ativo ou em hover */
-  background-color: #00ff0d;
-  border-radius: 50px;
+    color: #000000;
+    /* Verde quando ativo ou em hover */
+    background-color: #00ff00;
+    border-radius: 50px;
 }
 
 /* Estilo da seção de contato */
-.contact-banner {
-  background-color: #28a745; /* Verde */
-  padding: 60px 0;
+.contato-banner {
+    background-color: #000000;
+    /* Verde */
+    padding: 60px 0;
+    text-align: center;
+    color: #e3e3e3;
 }
 
 .contact-banner h2 {
-  font-size: 2.5rem;
-  color: #ffffff;
+    font-size: 2.5rem;
+    color: #ffffff;
 }
 
 .contact-banner p {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 /* Estilo das seções de contato */
 .contact-section {
-  padding: 60px 0;
+    padding: 60px 0;
 }
 
-.contact-info, .contact-form {
-  background-color: #e9ecef; /* Cinza claro */
-  border-radius: 8px;
+.contact-info,
+.contact-form {
+    background-color: #e9ecef;
+    /* Cinza claro */
+    border-radius: 8px;
 }
 
 /* Estilo para informações de contato */
 .contact-info h3 {
-  color: #28a745;
+    color: #28a745;
 }
 
 .social-icons a {
-  color: #28a745; /* Verde para ícones */
-  font-size: 1.5rem;
-  transition: color 0.3s;
+    color: #28a745;
+    /* Verde para ícones */
+    font-size: 1.5rem;
+    transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #155724; /* Verde escuro ao passar o mouse */
+    color: #155724;
+    /* Verde escuro ao passar o mouse */
 }
 
 /* Estilo do formulário de contato */
 .contact-form h2 {
-  color: #28a745;
+    color: #28a745;
 }
 
 .contact-form input,
 .contact-form textarea {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid #ced4da;
-  border-radius: 5px;
-  padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .contact-form button {
-  color: #000;
-  padding: 10px 20px;
-  transition: background-color 0.3s;
-  border-radius: 50px;
-  background-color:  #00ff0d;
-  color: #000;
+    color: #000;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    background-color: #00ff0d;
+    color: #000;
 
 }
 
 .contact-form button:hover {
-  background-color: #00ff0d;
+    background-color: #00ff0d;
 
 
 }
 
 /* Estilo do rodapé */
 footer {
-  background-color: #343a40; /* Escuro */
-  color: #ffffff;
-  padding: 40px 0;
+    background-color: #343a40;
+    /* Escuro */
+    color: #ffffff;
+    padding: 40px 0;
 }
 
 .footer-logo h2 {
-  color: #00ff0d;; /* Verde */
+    color: #00ff0d;
+    ;
+    /* Verde */
 }
 
 .footer-links ul {
-  list-style: none;
+    list-style: none;
 }
 
 .footer-links a {
-  color: #ffffff; /* Branco */
-  text-decoration: none;
+    color: #ffffff;
+    /* Branco */
+    text-decoration: none;
 }
 
 .footer-links a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .newsletter {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .newsletter input {
-  padding: 10px;
-  border: 1px solid #ced4da;
-  border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
 }
 
 .newsletter button {
-  background-color: #00ff0d;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-left: 10px;
+    background-color: #00ff0d;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
 }
 
 .newsletter button:hover {
-  background-color: #218838; /* Verde escuro ao passar o mouse */
+    background-color: #218838;
+    /* Verde escuro ao passar o mouse */
 }
 
 /* Responsividade */
 @media (max-width: 768px) {
-  .contact-info, .contact-form {
-      margin-bottom: 20px;
-  }
+
+    .contact-info,
+    .contact-form {
+        margin-bottom: 20px;
+    }
 }
