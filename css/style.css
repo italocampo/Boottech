@@ -8,23 +8,26 @@
 body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
-    background-color: #fff;
-    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* Estilo do cabeçalho */
 header {
-    background-color:#fff;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.zindex {
-    background-color: #000000;
-}
-
-.logo {
-    font-size: 2rem;
-    color: #00ff00;
-    /* Cor verde */
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
 }
 
 .nav {
@@ -84,21 +87,17 @@ header {
     color: #28a745;
 }
 
-.social-icons a {
-    color: #28a745;
-    /* Verde para ícones */
-    font-size: 1.5rem;
-    transition: color 0.3s;
+.contact-info p {
+    margin-bottom: 20px;
 }
 
-.social-icons a:hover {
-    color: #155724;
-    /* Verde escuro ao passar o mouse */
+.contact-form {
+    width: 60%;
 }
 
-/* Estilo do formulário de contato */
-.contact-form h2 {
-    color: #28a745;
+.contact-form form {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-form input,
@@ -153,39 +152,20 @@ footer {
     text-decoration: none;
 }
 
-.footer-links a:hover {
-    text-decoration: underline;
+footer .newsletter input {
+    padding: 5px;
+    width: 200px;
 }
 
-.newsletter {
-    margin-top: 20px;
-}
-
-.newsletter input {
-    padding: 10px;
-    border: 1px solid #ced4da;
-    border-radius: 5px;
-}
-
-.newsletter button {
-    background-color: #00ff0d;
-    color: #ffffff;
+footer .newsletter button {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
     border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin-left: 10px;
+    cursor: pointer;
 }
 
-.newsletter button:hover {
-    background-color: #218838;
-    /* Verde escuro ao passar o mouse */
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-
-    .contact-info,
-    .contact-form {
-        margin-bottom: 20px;
-    }
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
 }
