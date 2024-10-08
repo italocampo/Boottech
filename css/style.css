@@ -166,7 +166,7 @@ footer {
 }
 
 .social-icons i:hover {
-  color: #155724;
+  color: #000000;
   transition: 0.5s;
 }
 
@@ -190,7 +190,7 @@ footer {
 }
 
 .newsletter button:hover {
-  background-color: #218838;
+  background-color: #000000;
   /* Verde escuro ao passar o mouse */
 }
 
